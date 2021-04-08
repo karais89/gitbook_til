@@ -85,10 +85,6 @@ heroku open
 
 Gunicorn + Nginx 등을 사용하여 서버를 구성 해야 한다.
 
-
-
-
-
 ## 참조
 
 * [https://flask.palletsprojects.com/en/1.1.x/deploying/\#deployment](https://flask.palletsprojects.com/en/1.1.x/deploying/#deployment)
