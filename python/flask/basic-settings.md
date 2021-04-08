@@ -59,7 +59,7 @@ def hello():
 {% endcode %}
 
 * [플라스크 홈페이지의 공식 예제](https://palletsprojects.com/p/flask/)
-* `flask run` 명령어로 실행
+* 터미널에서`flask run` 명령어로 실행 하는게 정석이나, VSCode에서는 아래 방법으로 launch.json 파일을 만들고 단축키로 실행 가능하다.
 
 ![](../../.gitbook/assets/2021-04-09-000809.jpg)
 
