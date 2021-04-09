@@ -78,7 +78,7 @@ def hello():
 
 * [http://localhost:5000/](http://localhost:5000/) 접속 확인
 
-## 세팅 \(settings.json\)
+### 세팅 \(settings.json\)
 
 ```javascript
 {
