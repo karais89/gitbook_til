@@ -78,6 +78,30 @@ def hello():
 
 * [http://localhost:5000/](http://localhost:5000/) 접속 확인
 
+## 세팅 \(settings.json\)
+
+```javascript
+{
+    "python.pythonPath": "venv\\Scripts\\python.exe",
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.maxNumberOfProblems": 100,
+    "python.linting.pylintUseMinimalCheckers": false,
+    "python.linting.pylintArgs": [
+        "--disable=C0111"
+    ],
+}
+```
+
+* black로 포맷팅. 저장시 자동 포맷
+* pylint로 파이썬 문법 검사
+  * pylintUseMinimalCheckers가 false여야 엄격한 문법 검사 동작
+  * C0111 워닝은 무시 \(docstring 정의 관련\)
+
 ## 참조
 
 * [https://wikidocs.net/book/4542](https://wikidocs.net/book/4542)
