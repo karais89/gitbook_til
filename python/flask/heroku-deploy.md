@@ -85,6 +85,8 @@ heroku open
 
 Gunicorn + Nginx 등을 사용하여 서버를 구성 해야 한다.
 
+Heroku의 경우 Nginx를 띄우는 것을 추천하지 않고 있지만, Gunicorn의 경우 Nginx를 사용하여 프록시 서버를 구성하는 것을 추천하고 있다. 일반적으로 다른 서비스 \(aws\)등에서는 flask + Nginx + Gunicorn의 조합으로 Flask 앱을 실행한다.
+
 ## 참조
 
 * [https://flask.palletsprojects.com/en/1.1.x/deploying/\#deployment](https://flask.palletsprojects.com/en/1.1.x/deploying/#deployment)
