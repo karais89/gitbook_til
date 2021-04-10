@@ -7,6 +7,7 @@
 * [Flask](python/flask/README.md)
   * [기본 세팅](python/flask/basic-settings.md)
   * [Heroku에 배포하기](python/flask/heroku-deploy.md)
+  * [SqlAlchemy](python/flask/sqlalchemy.md)
 
 ---
 
