@@ -1,25 +1,17 @@
 # SqlAlchemy
 
-## Getting Super Powers
+## ORM
 
-Becoming a super hero is a fairly straight forward process:
+* Flask 앱에서 DB를 쉽게 사용하기 위해, ORM을 도입하기로 하였고, Python에서 가장 유명한 SqlAlchemy를 사용하기로 하였다.
+* 해당 부분에 대해 전혀 알고 있는 부분이 없어서, 어떤 식으로 사용하는지에 대해 테스트를 진행할 예정이다.
 
-```
-$ give me super-powers
-```
+## Database Tool
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+* [DBeaver](https://dbeaver.io/) \(무료\)
+* [HeidiSQL](https://www.heidisql.com/) \(무료\)
+* [DataGrip](https://www.jetbrains.com/ko-kr/datagrip/) \(유료\)
 
-Once you're strong enough, save the world:
+편한거 선택해서 사용하면 될 것으로 보임.
 
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
-
-
+## 참조
 
