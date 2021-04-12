@@ -11,6 +11,7 @@
 * Python \(파이썬 기본 자동완성\)
 * Pylance \(자동완성 강화\)
 * GitHub Pull Requests and Issues
+* Python Test Explorer for Visual Studio Code
 
 위 확장 기능을 설치하면, 자동 완성 부분은 거의 완벽하게 동작한다고 생각해도 무방하다.
 
@@ -94,6 +95,8 @@ def hello():
     "python.linting.pylintArgs": [
         "--disable=C0111"
     ],
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
+    "python.testing.pytestEnabled": true,
 }
 ```
 
@@ -101,6 +104,7 @@ def hello():
 * pylint로 파이썬 문법 검사
   * pylintUseMinimalCheckers가 false여야 엄격한 문법 검사 동작
   * C0111 워닝은 무시 \(docstring 정의 관련\)
+* 유닛 테스트 설정 추가 \(pytest\)
 
 ## 참조
 
