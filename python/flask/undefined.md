@@ -41,3 +41,5 @@ def test_hello_pybo(api):
 * setup, teardown 등으로 테스트 실행 전 후 세팅을 할 수 있다. \(test DB 세팅 등\)
 * `@pytest.fixture`로 설정된 값은 pytest에서 자동으로 inject 시켜준다.
 
+![](../../.gitbook/assets/2021-04-12-233904.jpg)
+
