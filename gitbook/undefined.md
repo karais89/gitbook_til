@@ -25,14 +25,14 @@
       </td>
       <td style="text-align:left"><code>Ctrl+S</code>
       </td>
-      <td style="text-align:left">&#xAE00; &#xC800;</td>
+      <td style="text-align:left">&#xAE00; &#xC800;&#xC7A5;</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>&#x2318;&#x21E7;S</code>
       </td>
       <td style="text-align:left"><code>Ctrl+Shift+S</code>
       </td>
-      <td style="text-align:left">&#xAE00; &#xC800;&#xC7A5; &#xBC0F; &#xBC18;</td>
+      <td style="text-align:left">&#xAE00; &#xC800;&#xC7A5; &#xBC0F; &#xBC18;&#xC601;</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>&#x2318;C</code>
