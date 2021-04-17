@@ -2,7 +2,7 @@
 
 ## FastAPI
 
-* FastAPI는 속도가 빠르다 \(Golang과 Js와 비견될 정도\)
+* FastAPI는 속도가 빠르다 \(Golang과NodeJs와 비견될 정도\)
 * API 문서를 자동으로 생성 해준다.
 * 타입 체크가 가능하다.
 * 플라스크와 구조가 유사하다.
