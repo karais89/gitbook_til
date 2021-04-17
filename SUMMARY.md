@@ -4,6 +4,8 @@
 
 ## Python
 
+* [FastAPI](python/fastapi/README.md)
+  * [벤치마크](python/fastapi/benchmarks.md)
 * [Flask](python/flask/README.md)
   * [점프 투 플라스크](python/flask/jump-to-flask.md)
   * [기본 세팅](python/flask/basic-settings.md)
