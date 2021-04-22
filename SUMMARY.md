@@ -5,6 +5,7 @@
 ## Python
 
 * [FastAPI](python/fastapi/README.md)
+  * [자습서](python/fastapi/tutorial.md)
   * [벤치마크](python/fastapi/benchmarks.md)
   * [사이드 프로젝트](python/fastapi/side-project.md)
 * [Flask](python/flask/README.md)
