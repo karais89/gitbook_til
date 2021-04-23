@@ -240,6 +240,15 @@ Starlette에서 직접 옵션을 사용하여 다음과 같은 URL을 사용하�
 
 * [http://127.0.0.1:8000/files/home/johndoe/myfile.txt](http://127.0.0.1:8000/files/home/johndoe/myfile.txt)
 
+### 요약
+
+FastAPI 장점
+
+* 편집기 지원: 에러 체크, 자동완성 등
+* 데이터 파싱
+* 데이터 검증
+* API 문서 자동 생성
+
 
 
 {% embed url="https://fastapi.tiangolo.com/tutorial/" %}
