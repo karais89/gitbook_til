@@ -72,3 +72,64 @@ async def create_item(item: Item):
 * 함수 내에서 모델 객체의 모든 속성에 대해 직접 액세스 할 수 있다.
 * [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) 에서 바로 테스트 가능.
 
+### 요청 본문 + 경로 매개 변수
+
+```python
+from typing import Optional
+
+from fastapi import FastAPI
+from pydantic import BaseModel
+
+
+class Item(BaseModel):
+    name: str
+    description: Optional[str] = None
+    price: float
+    tax: Optional[float] = None
+
+
+app = FastAPI()
+
+
+@app.put("/items/{item_id}")
+async def create_item(item_id: int, item: Item):
+    return {"item_id": item_id, **item.dict()}
+```
+
+경로 매개 변수와 요청 본문을 동시에 선언 할 수 있습니다.
+
+FastAPI 는 경로 매개 변수와 일치하는 함수 매개 변수를 경로 에서 가져와야하며 Pydantic 모델로 선언 된 함수 매개 변수를 요청 본문에서 가져와야 함을 자동으로 인식 합니다.
+
+### 요청 본문 + 경로 + 쿼리 매개 변수 <a id="request-body-path-query-parameters"></a>
+
+```python
+from typing import Optional
+
+from fastapi import FastAPI
+from pydantic import BaseModel
+
+
+class Item(BaseModel):
+    name: str
+    description: Optional[str] = None
+    price: float
+    tax: Optional[float] = None
+
+
+app = FastAPI()
+
+
+@app.put("/items/{item_id}")
+async def create_item(item_id: int, item: Item, q: Optional[str] = None):
+    result = {"item_id": item_id, **item.dict()}
+    if q:
+        result.update({"q": q})
+    return result
+```
+
+ 매개 변수는 다음과 같이 인식됩니다.
+
+* 매개 변수가 경로에 선언 된 경우 경로 매개 변수로 해석 됩니다. 
+* 매개 변수가 단수 형\(int, float, str, bool 등\)으로 선언 된 경우 쿼리 매개 변수로 해석 됩니다. 
+* 매개 변수가 Pydantic 모델 유형으로 선언 된 경우 요청 본문 으로 해석됩니다 .
+
