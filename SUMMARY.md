@@ -8,6 +8,8 @@
   * [자습서](python/fastapi/tutorial/README.md)
     * [쿼리 매개 변수](python/fastapi/tutorial/undefined.md)
     * [요청 본문](python/fastapi/tutorial/undefined-1.md)
+    * [쿼리 매개 변수 및 문자열 유효성 검사](python/fastapi/tutorial/undefined-2.md)
+    * [SQL \(관계형\) 데이터베이스](python/fastapi/tutorial/sql.md)
   * [벤치마크](python/fastapi/benchmarks.md)
   * [사이드 프로젝트](python/fastapi/side-project.md)
 * [Flask](python/flask/README.md)
